@@ -63,8 +63,7 @@ ul {
     font-size: 18px;
 }
 
-button {
-    background-color: #3882f6;
+button {    
     color: #fff;
     font-weight: bold;
     width: 100px;
@@ -72,6 +71,11 @@ button {
     border-radius: 10px;
     border-width: 0;
     margin: 5px 0;
+}
+
+button,
+.call {
+    background-color: #3882f6;
 }
 
 .lower .placeholder {
@@ -122,8 +126,34 @@ button {
 }
 
 /* section 3 */
+div.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px; 
+    gap: 20px;
+}
 
+p.quote {
+    background-color: #e5e7eb;
+    font-size: 36px;
+    font-style: italic;
+    width: 70%;
+    color: #1f2937;
+}
 
+p.author {
+    display: flex;
+    justify-content: flex-end;
+    font-size: 18px;
+    font-weight: bold;
+    color: #1f2937;
+    text-align: end;
+    width: 70%;
+}
+
+/* section 4 */
 
 
 
