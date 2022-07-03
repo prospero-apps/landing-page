@@ -85,8 +85,43 @@ button {
 
 
 /* section 2 */
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 350px;
+}
 
+.info h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1f2937;
+}
 
+.boxes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.box .placeholder {
+    width: 150px;
+    height: 150px;
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    gap: 20px;
+}
+
+/* section 3 */
 
 
 
